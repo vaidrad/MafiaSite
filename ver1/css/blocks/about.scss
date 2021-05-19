@@ -1,0 +1,21 @@
+.about_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    img {
+        display: inline-block;
+        width: $img_width;
+    }
+    p,div {
+        width: $wrap - $img_width - 10px;
+        line-height: 30px;
+        font-size: 18px;
+        margin: auto 0;
+    }
+    h2{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+}

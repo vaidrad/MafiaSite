@@ -1,0 +1,18 @@
+.logo_section {
+  margin-top: 80px;
+  background-color: black;
+}
+
+.logo_section .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.main_logo {
+  height: 760px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=logo.css.map */
